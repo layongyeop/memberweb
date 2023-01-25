@@ -12,7 +12,7 @@
 		String sessionId = (String) session.getAttribute("memberId");
 		
 		MemberDao dao = new MemberDao();
-		int resultFlag =  dao.withdraw(sessionId);
+		int resultFlag =  dao.memberWithdraw(sessionId);
 		if(resultFlag == 1 ){
 			session.invalidate();
 	%>

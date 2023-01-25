@@ -251,7 +251,7 @@ public class MemberDao {
 		
 	}
 	
-	public int withdraw(String id) {
+	public int memberWithdraw(String id) {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		String sql = "DELETE FROM members WHERE id = ?";
