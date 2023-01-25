@@ -26,7 +26,7 @@
 	
 	%>
 		<script type="text/javascript">
-		alert("회원탈퇴실패");
+		alert("회원탈퇴실패 다시 시도해주세요");
 		history.go(-1);
 		</script>
 	<%
